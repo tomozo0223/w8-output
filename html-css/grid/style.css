@@ -30,3 +30,8 @@ grid
   width: calc(25% - 8px);
   background-color: #ff38ca;
 }
+
+.grid-col2-item {
+  width: calc(50% - 8px);
+  background-color: #f69608;
+}
