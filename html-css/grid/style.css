@@ -35,3 +35,8 @@ grid
   width: calc(50% - 8px);
   background-color: #f69608;
 }
+
+.grid-col6-item {
+  width: calc(16% - 8px);
+  background-color: #1b1b1b;
+}
