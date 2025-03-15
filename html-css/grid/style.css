@@ -1,0 +1,32 @@
+/*
+見出し
+*/
+.heading {
+  color: #3c3c3c;
+  text-align: center;
+  text-decoration: underline #ccc;
+}
+
+/*
+grid
+*/
+.flex-grid {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.grid-item {
+  text-align: center;
+  margin: 4px;
+  line-height: 200px;
+  color: #fff;
+  border-radius: 30px;
+}
+
+.grid-col4-item {
+  width: calc(25% - 8px);
+  background-color: #ff38ca;
+}
