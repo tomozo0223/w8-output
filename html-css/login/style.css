@@ -39,6 +39,7 @@ form
   font-size: 24px;
   border: 2px solid #495261;
   background-color: #384152;
+  color: #fff;
 }
 
 .form-item-input::placeholder {
