@@ -4,6 +4,35 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ログインホーム</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
-  <body></body>
+  <body>
+    <div class="form">
+      <h1 class="heading">Sign in to your account</h1>
+      <div class="form-item">
+        <label for="email" class="form-label">Your email</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="name@example.com"
+          class="form-item-input"
+        />
+      </div>
+      <div class="form-item">
+        <label for="password" class="form-label">Password</label>
+        <input
+          type="password"
+          name="password"
+          id="password"
+          placeholder="●●●●●●●"
+          class="form-item-input"
+        />
+      </div>
+      <button type="button" class="btn">Sign in</button>
+      <p class="form-text">
+        Don't have an account yet?<a href="#" class="form-link">Sign up</a>
+      </p>
+    </div>
+  </body>
 </html>
